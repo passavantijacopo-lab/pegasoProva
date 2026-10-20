@@ -1,0 +1,65 @@
+:root{
+  --nero: #0a0a0a;
+  --nero2: #141414;
+  --giallo: #EFFF00;
+  --grigio: #888;
+}
+
+body{
+  background: var(--nero);
+  color: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+  padding-top: 76px; /* per navbar fixed-top */
+}
+
+#mainNavbar{
+  background: rgba(10,10,10,0.9);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #222;
+}
+
+.neon-text{
+  color: var(--giallo);
+  text-shadow: 0 0 15px rgba(239,255,0,0.5);
+}
+
+.btn-giallo{
+  background: var(--giallo);
+  color: #000;
+  font-weight: 700;
+  border-radius: 12px;
+  font-family: 'Space Grotesk';
+}
+.btn-giallo:hover{
+  background: #d4e500;
+  color: #000;
+  box-shadow: 0 0 20px rgba(239,255,0,0.4);
+}
+
+.hero-car{
+  filter: drop-shadow(0 0 40px rgba(239,255,0,0.25));
+  transition: transform 0.4s ease;
+}
+.hero-car:hover{
+  transform: translateY(-8px) scale(1.02);
+}
+
+.card-pegaso{
+  background: var(--nero2);
+  border: 1px solid #222;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+.card-pegaso:hover{
+  border-color: var(--giallo);
+  transform: translateY(-4px);
+}
+
+.nav-link{
+  font-family: monospace;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.nav-link.active{
+  color: var(--giallo) !important;
+}

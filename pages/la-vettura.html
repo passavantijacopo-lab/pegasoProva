@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegaso - La Vettura</title>
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ICONE BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- FONT GOOGLE -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- CSS PERSONALIZZATO -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR FISSA UGUALE OVUNQUE -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="./img/logo-pegaso.png" alt="Pegaso Team" height="36">
+                <span class="fw-bold" style="font-family:'Space Grotesk';"><span class="text-white">PEGASO</span> <span
+                        class="neon-text">TEAM</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./la-vettura.html">LA VETTURA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./team.html">TEAM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./gare.html">GARE</a></li>
+                    <li class="nav-item ms-md-3"><a class="btn btn-sm btn-giallo"
+                            href="https://www.instagram.com/pegasoteam_official/" target="_blank"><i
+                                class="bi bi-instagram"></i> INSTAGRAM</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER PAGINA -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="badge bg-dark border border-warning text-warning mb-3"
+                        style="font-family: monospace;">01 / LA VETTURA</span>
+                    <h1 class="display-3 fw-bold" style="font-family:'Space Grotesk';">PERRY-01</h1>
+                    <p class="text-secondary">La nostra seconda generazione, completamente ridisegnata dopo la qualifica
+                        di Febbraio 2026. Più leggera, più stabile, più veloce.</p>
+
+                    <div class="card-pegaso p-4 mt-4">
+                        <div class="row g-3" style="font-family: monospace; font-size: 13px;">
+                            <div class="col-6 d-flex justify-content-between border-bottom border-dark py-2"><span
+                                    class="text-secondary">PESO</span><span class="fw-bold">55g</span></div>
+                            <div class="col-6 d-flex justify-content-between border-bottom border-dark py-2"><span
+                                    class="text-secondary">LUNGHEZZA</span><span class="fw-bold">210mm</span></div>
+                            <div class="col-6 d-flex justify-content-between border-bottom border-dark py-2"><span
+                                    class="text-secondary">MATERIALE</span><span class="fw-bold">BALSA + CARBON</span>
+                            </div>
+                            <div class="col-6 d-flex justify-content-between border-bottom border-dark py-2"><span
+                                    class="text-secondary">PROPULSIONE</span><span class="fw-bold">CO2 8g</span></div>
+                            <div class="col-6 d-flex justify-content-between border-bottom border-dark py-2"><span
+                                    class="text-secondary">NUMERO</span><span class="fw-bold neon-text">55</span></div>
+                            <div class="col-6 d-flex justify-content-between border-bottom border-dark py-2"><span
+                                    class="text-secondary">LIVREA</span><span class="fw-bold">NERO / GIALLO</span></div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 d-flex gap-3">
+                        <a href="./team.html" class="btn btn-outline-light">CHI L'HA COSTRUITA <i
+                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="./gare.html" class="btn btn-giallo">VAI ALLE GARE</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="./img/perry01.png" alt="PERRY-01" class="img-fluid hero-car">
+                    <p class="text-secondary small mt-3" style="font-family: monospace;">Rendering ufficiale PERRY-01 -
+                        Sponsor: wh.factory, Castrol, FII, EYFIN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 border-top border-dark mt-5">
+        <div class="container d-flex justify-content-between">
+            <small class="text-secondary"><a href="index.html" class="text-secondary text-decoration-none">← Torna alla
+                    Home</a></small>
+            <small class="text-secondary" style="font-family: monospace;">PERRY-01 // 2026</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
